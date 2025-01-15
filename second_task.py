@@ -3,7 +3,6 @@ import random
 
 def get_numbers_ticket(min: int, max: int, quantity: int) -> list:
     if not (min >= 0 and min < max <= 1000 and (max - min) >= quantity):
-        print("Incorrect values")
         return []
     else:
         nums = set()
